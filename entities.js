@@ -84,6 +84,7 @@ const Entities = (width, height) => {
     );
   };
 
+  
   return {
     person: { body: person, renderer: <Person /> },
     ball: { body: ball, renderer: <Ball /> },
